@@ -1,4 +1,4 @@
-package br.edu.up.modelo;
+package br.edu.up.modelos;
 
 public class Livro {
     private String codigo;
@@ -7,7 +7,6 @@ public class Livro {
     private String isbn;
     private int ano;
 
-   
     public Livro(String codigo, String titulo, String autores, String isbn, int ano) {
         this.codigo = codigo;
         this.titulo = titulo;
@@ -16,7 +15,6 @@ public class Livro {
         this.ano = ano;
     }
 
-   
     public String getCodigo() {
         return codigo;
     }
@@ -37,7 +35,6 @@ public class Livro {
         return ano;
     }
 
-    
     public void exibirDados() {
         System.out.println("Código: " + codigo);
         System.out.println("Título: " + titulo);
